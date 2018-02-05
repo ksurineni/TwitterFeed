@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterFeed.API", "TwitterFeed.API\TwitterFeed.API.csproj", "{AC124ECD-57A0-4795-B15E-868EEDDAA779}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterFeed.API.Tests", "TwitterFeed.API.Tests\TwitterFeed.API.Tests.csproj", "{BF9F5111-BB29-441B-9A0B-FBB8768128C9}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "TwitterFeed.Client", "TwitterFeed.Client", "{2C7AACA8-37A2-4B1F-A1A4-8D2ECFB45E36}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = ""
+		SccAuxPath = ""
+		SccLocalPath = ""
+		SccProvider = ""
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_59242"
+		Debug.AspNetCompiler.PhysicalPath = "TwitterFeed.Client\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_59242\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_59242"
+		Release.AspNetCompiler.PhysicalPath = "TwitterFeed.Client\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_59242\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "59242"
+		SlnRelativePath = "TwitterFeed.Client\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterFeed.DTO", "TwitterFeed.DTO\TwitterFeed.DTO.csproj", "{D971D383-3592-4210-BE35-AE9215D85650}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterFeed.Repository", "TwitterFeed.Repository\TwitterFeed.Repository.csproj", "{0403BA10-FEF3-4220-B392-79962C936B9F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC124ECD-57A0-4795-B15E-868EEDDAA779}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC124ECD-57A0-4795-B15E-868EEDDAA779}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC124ECD-57A0-4795-B15E-868EEDDAA779}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC124ECD-57A0-4795-B15E-868EEDDAA779}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF9F5111-BB29-441B-9A0B-FBB8768128C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF9F5111-BB29-441B-9A0B-FBB8768128C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF9F5111-BB29-441B-9A0B-FBB8768128C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF9F5111-BB29-441B-9A0B-FBB8768128C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C7AACA8-37A2-4B1F-A1A4-8D2ECFB45E36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C7AACA8-37A2-4B1F-A1A4-8D2ECFB45E36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C7AACA8-37A2-4B1F-A1A4-8D2ECFB45E36}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C7AACA8-37A2-4B1F-A1A4-8D2ECFB45E36}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{D971D383-3592-4210-BE35-AE9215D85650}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D971D383-3592-4210-BE35-AE9215D85650}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D971D383-3592-4210-BE35-AE9215D85650}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D971D383-3592-4210-BE35-AE9215D85650}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0403BA10-FEF3-4220-B392-79962C936B9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0403BA10-FEF3-4220-B392-79962C936B9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0403BA10-FEF3-4220-B392-79962C936B9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0403BA10-FEF3-4220-B392-79962C936B9F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CD8C646F-AFC0-45FA-A19C-5C95F4DF27D7}
+	EndGlobalSection
+EndGlobal

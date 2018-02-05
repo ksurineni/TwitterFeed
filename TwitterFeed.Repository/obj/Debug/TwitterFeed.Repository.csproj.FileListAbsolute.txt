@@ -1,0 +1,10 @@
+C:\projects\TwitterFeed\TwitterFeed.Repository\bin\Debug\TwitterFeed.Repository.dll
+C:\projects\TwitterFeed\TwitterFeed.Repository\bin\Debug\TwitterFeed.Repository.pdb
+C:\projects\TwitterFeed\TwitterFeed.Repository\bin\Debug\Newtonsoft.Json.dll
+C:\projects\TwitterFeed\TwitterFeed.Repository\bin\Debug\Newtonsoft.Json.xml
+C:\projects\TwitterFeed\TwitterFeed.Repository\obj\Debug\TwitterFeed.Repository.csprojResolveAssemblyReference.cache
+C:\projects\TwitterFeed\TwitterFeed.Repository\obj\Debug\TwitterFeed.Repository.csproj.CoreCompileInputs.cache
+C:\projects\TwitterFeed\TwitterFeed.Repository\obj\Debug\TwitterFeed.Repository.dll
+C:\projects\TwitterFeed\TwitterFeed.Repository\obj\Debug\TwitterFeed.Repository.pdb
+C:\projects\TwitterFeed\TwitterFeed.Repository\bin\Debug\TwitterFeed.DTO.dll
+C:\projects\TwitterFeed\TwitterFeed.Repository\bin\Debug\TwitterFeed.DTO.pdb

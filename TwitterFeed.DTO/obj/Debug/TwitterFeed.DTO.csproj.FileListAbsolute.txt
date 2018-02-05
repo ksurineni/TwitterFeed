@@ -1,0 +1,6 @@
+C:\projects\TwitterFeed\TwitterFeed.DTO\bin\Debug\TwitterFeed.DTO.dll
+C:\projects\TwitterFeed\TwitterFeed.DTO\bin\Debug\TwitterFeed.DTO.pdb
+C:\projects\TwitterFeed\TwitterFeed.DTO\obj\Debug\TwitterFeed.DTO.csproj.CoreCompileInputs.cache
+C:\projects\TwitterFeed\TwitterFeed.DTO\obj\Debug\TwitterFeed.DTO.dll
+C:\projects\TwitterFeed\TwitterFeed.DTO\obj\Debug\TwitterFeed.DTO.pdb
+C:\projects\TwitterFeed\TwitterFeed.DTO\obj\Debug\TwitterFeed.DTO.csprojResolveAssemblyReference.cache

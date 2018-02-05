@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Twitter Client</title>
+    <!-- Style sheets -->
+    <link href="Content/TwitterFeed.css" rel="stylesheet" />
+    <!-- Library Scripts -->
+    <script src="scripts/angular.js"></script>
+
+    <!-- Application Script -->
+    <script src="app/main.js"></script>
+
+    <!-- Services -->
+    <script src="app/services/tweetService.js"></script>
+
+
+    <!-- Controllers -->
+    <script src="app/controllers/tweetListController.js"></script>
+
+</head>
+<body ng-app="twitterFeedApp">
+    <div ng-controller="tweetListController as vm">
+        <span class="first">
+            Salesforce Twitter Timeline
+            <span class="icon-edit new"></span>
+            <input type="text" ng-model="searchTerm" class="form-control" id="searchBox" placeholder="Search Timeline">
+        </span>
+        <ul class="timeline">
+            <li ng-repeat="tweet in vm.tweets | filter:searchTerm">
+                <div class="avatar">
+                    <img ng-src="{{ tweet.ProfileImage }}">
+                    <div>
+                        <div class="icon-twitter"></div>
+                    </div>
+                </div>
+                <div class="bubble-container">
+                    <div class="bubble">
+                        <h3 style="margin:0">{{tweet.ScreenName}}&nbsp@{{tweet.UserName}}</h3>  <h5 style="margin: 0; float: right">{{tweet.TweetDate}}</h5> <br />
+                        <p style="margin: 0;">{{tweet.TweetContent}}</p>
+                        <div ng-repeat="media in tweet.MediaList" class="bubble">
+                            <img ng-src="{{media.Media_URL}}" />
+                        </div>
+                        <h5>Retweeted Count: {{tweet.RetweetCount}}</h5>
+                    </div>
+
+                    <div class="arrow"></div>
+                </div>
+            </li>
+
+        </ul>
+
+    </div>
+</body>
+</html>

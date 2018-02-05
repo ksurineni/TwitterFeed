@@ -1,0 +1,1 @@
+2018-02-04 17:09:50,646 [13] ERROR TwitterFeed.API.Controllers.UserTimelineController - {"request":"\/1.1\/statuses\/user_timeline.json","error":"Not authorized."}
